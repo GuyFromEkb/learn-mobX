@@ -1,0 +1,18 @@
+.book {
+    display: flex;
+    flex-direction: column;
+	max-width: 200px;
+	&__img {
+        display: block;
+		object-fit: cover;
+		width: 100px;
+        height: auto;
+	}
+    &__name{
+        font-weight: 700;
+    }
+    &__author{
+        margin-top: -2px;
+        font-style: italic;
+    }
+}

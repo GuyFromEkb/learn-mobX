@@ -1,16 +1,16 @@
-import Counter from '../counter/Counter';
 
-import './App.scss';
+import SearchForm from "../searchForm/SearchForm"
+import BookList from "../bookList/BookList"
 
-function App() {
+import "./App.scss"
+
+const App: React.FC = () => {
   return (
-    <div className="App">
-
-      <Counter />
-
-    </div>
-    
-  );
+    <>
+      <SearchForm />
+      <BookList />
+    </>
+  )
 }
 
-export default App;
+export default App
